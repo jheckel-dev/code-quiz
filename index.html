@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <header>
-    <link rel="stylesheet" href="style.css">
-    <title>Coding Quiz</title>
-    </header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-    <div class="quiz">
-        <div id="questionBox" class="question">
-            Sample question
+        <div id="startBtn"><button>Start</button></div>
+
+        <div id="ruleBox">
+            <div id="ruleTitle"><span>Rules:</span></div>
+            <div id="ruleList">
+                <div class="rule">1. You will only have <span>7 seconds</span> for each question.</div>
+                <div class="rule">2. Once you select an answer you cannot change it.</div>
+                <div class="rule">3. When the time is up you can't choose an answer.</div>
+                <div class="rule">4. You can't exit the Quiz when you start.</div>
+                <div class="rule">5. You get points for your correct answers.</div>
+            </div>
+            <div class="buttons">
+                <button id="quit">Quit</button>
+                <button class="restart">Continue</button>
+            </div>
+
         </div>
-        <div class="options"></div>
-        <ul id="ul">
-            <li id="option1" onclick="button(this)"></li>
-            <li id="option2" onclick="button(this)"></li>
-            <li id="option3" onclick="button(this)"></li>
-            <li id="option4" onclick="button(this)"></li>
-        </ul>
-    </div>
-    <div class="score">
-        <div class="next">
-            <button id="nextBtn" type="button" onclick="next()">Next</button>
+
+        <div id="quiz">
+            <header>
+                <div id="quizTitle"> Coding Quiz</div>
+                <div id="timer">
+                    <div id="timeLeft">Time Remaining</div>
+                    <div id="timer"></div>
+                </div>
+                <div id="timeLine"></div>
+            </header>
+            <section>
+                <div id="question">
+                    
+                </div>
+                <div id="options">
+                    
+                </div>
+            </section>
+            <footer>
+                <div id="total"></div>
+                <button id="nextBtn">Next</button>
+            </footer>
         </div>
-        <div class="score">
-            SCORE:  <span id="scoreCard">0</span>
+
+        <div id="resultsBox"></div>
+        <div id="complete">You finished!</div>
+        <div id="score"></div>
+        <div class="buttons">
+            <button class="restart">Restart</button>
+            <button class="quit">Exit</button>
         </div>
-    </div>
+        <script src="quiestions.js"></script>
+        <script src="script.js"></script>
     </body>
-
-
 </html>
