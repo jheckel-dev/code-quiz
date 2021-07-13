@@ -1,0 +1,25 @@
+#start {
+    background-color: lightcoral;
+    margin-left: 33.3333333%;
+    margin-top: 20%;
+    padding: 20px 35px;
+    font-size: 25px;
+    color: lightcyan;
+}
+
+#quiz {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid grey;
+}
+
+#timer {
+    float: right;
+}
+
+#questions {
+    margin: 20px;
+}
