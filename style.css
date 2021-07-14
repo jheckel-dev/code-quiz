@@ -1,10 +1,5 @@
-#start {
-    background-color: lightcoral;
-    margin-left: 33.3333333%;
-    margin-top: 20%;
-    padding: 20px 35px;
-    font-size: 25px;
-    color: lightcyan;
+body {
+    background: antiquewhite;
 }
 
 #quiz {
@@ -13,13 +8,92 @@
     top: 20%;
     width: 500px;
     height: 500px;
-    border: 1px solid grey;
+    border: none;
 }
 
-#timer {
+#time {
     float: right;
 }
 
-#questions {
+#quizQue {
     margin: 20px;
+}
+
+#startBtn {
+    background-color: cyan;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color:black;
+}
+
+#backBtn {
+    background-color: cyan;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#clear {
+    background-color: cyan;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: cyan;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: black;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    background-color: cyan;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: black;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
 }

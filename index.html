@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
 
-        <title>Coding Quiz</title>
-    </head>
-
-    <body>
-        <a href="HighScore.html">See Highscores</a>
-
-        <div id="quiz">
-            <div id="timer"></div>
-            <div id="questions">
-                <h1>Coding Quiz</h1>
-                <p>Try to answer the following questions within 60 seconds. Wrong answers will penalize you!</p>
-                <ul id="options"></ul>
-                <button id="start">Start!</button>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <a href="highscores.html">View Highscores</a>
+    <div id="quiz">
+        
+        <div id="time"></div>
+        
+        <div id="quizQue">
+            <h1>Coding Quiz!</h1>
+            <p>Answer the following questions correctly. Incorrect answers will dock you 10 seconds!</p>
+            <ul id="optionsList"></ul>
+            <button id="startBtn">Start</button>
         </div>
 
-        <script src="script.js"></script>
-    </body>
+    </div>
+    <script src="questions.js"></script>
 
 
+</body>
 
 </html>
